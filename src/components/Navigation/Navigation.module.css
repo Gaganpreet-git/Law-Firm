@@ -1,0 +1,12 @@
+.nav {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-white);
+
+}
+
+.navItems {
+    display: flex;
+    list-style: none;
+    gap: 4.8rem;
+}
