@@ -1,0 +1,40 @@
+.intro {
+    color: var(--color-white);
+    max-width: 113.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introDetails {
+    width: 47.5rem;
+
+}
+
+.introHeading {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87px;
+
+
+}
+
+.introSubHeading {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+
+}
+
+.introDescription {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    opacity: 30%;
+
+}
+
+.separator {
+    height: 20.6rem;
+    border: 1px solid #6A6A6A
+}
