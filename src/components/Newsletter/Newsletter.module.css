@@ -1,0 +1,51 @@
+.newsletter {
+    background-color: #47474780;
+    width: 124.5rem;
+    margin: 0 auto;
+    padding: 9.3rem 28rem;
+    margin-top: 21.5rem;
+}
+
+/* .inner {
+} */
+
+.heading {
+    color: var(--color-white);
+    /* font-family: Helvetica Now Display; */
+    font-size: 5.5rem;
+    font-weight: 500;
+    line-height: 7.5rem;
+    /* letter-spacing: 0em; */
+    text-align: center;
+
+}
+
+.text {
+    border-radius: 8px 0px 0px 8px;
+    padding: 1.4rem;
+    width: 27.6rem;
+}
+
+.email {
+    padding: 1.4rem;
+    width: 27.6rem;
+
+}
+
+.form {
+    display: flex;
+    gap: 0.9rem;
+    margin-top: 4.2rem;
+
+}
+
+.btn {
+    border-radius: 0px 8px 8px 0px;
+    padding: 1.6rem 3.2rem;
+    background-color: #E3B748;
+    font-family: Helvetica Now Display;
+    font-size: 14px;
+    font-weight: 700;
+
+
+}

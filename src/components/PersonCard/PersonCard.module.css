@@ -1,0 +1,36 @@
+.container {
+    width: 34.4rem;
+    border-radius: 1.4rem;
+    background-color: transparent;
+    color: var(--color-white);
+    display: flex;
+    gap: 2.2rem;
+    padding: 2.1rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.name {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.details {
+    font-size: 1.4rem;
+    font-weight: 400;
+    opacity: 30%;
+
+}
+
+.featured {
+    background-color: var(--color-primary);
+    color: #373737;
+}
+
+.featured .text {
+    color: var(--color-black);
+}

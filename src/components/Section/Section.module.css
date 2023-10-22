@@ -3,7 +3,6 @@
     width: 114rem;
     margin: 0 auto;
     margin-top: 18rem;
-
 }
 
 .heading {
@@ -18,4 +17,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 9.7rem;
+    flex-wrap: wrap;
+    row-gap: 10rem;
+
 }
