@@ -1,5 +1,5 @@
 import "./App.css";
-import Card from "./components/Card/Card";
+import FeatureCard from "./components/FeatureCard/FeatureCard";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Intro from "./components/Intro/Intro";
@@ -11,28 +11,14 @@ function App() {
         <Header />
         <Hero />
       </div>
-      <Card>
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequatduis enim velit mollit Exer.Amet minim
-        mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-        officia consequatduis enim velit mollit Exer. Amet minim mollit non
-        deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-        consequatduis enim velit mollit Exer.Amet minim mollit non deserunt
-        ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis
-        enim velit mollit Exer. Amet minim mollit non deserunt ullamco est sit
-        aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit
-        Exer.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequatduis enim velit mollit Exer. Amet minim
-        mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-        officia consequatduis enim velit mollit Exer.Amet minim mollit non
-        deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-        consequatduis enim velit mollit Exer. Amet minim mollit non deserunt
-        ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis
-        enim velit mollit Exer.Amet minim mollit non deserunt ullamco est sit
-        aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit
-        Exer.
-      </Card>
       <Intro />
+      <FeatureCard
+        featured
+        heading={"98% Success Rate"}
+        description={
+          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer."
+        }
+      />
     </div>
   );
 }

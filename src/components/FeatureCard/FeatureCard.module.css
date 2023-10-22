@@ -1,0 +1,20 @@
+/* .featureCard {
+    padding: 24px;
+} */
+
+.heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 2.8rem;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 23px;
+    opacity: 30%;
+    margin-top: 2.6rem;
+}
+
+.btn {
+    margin-top: 2.2rem;
+}
