@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: var(--color-black);
+    width: 144rem;
+    margin: 0 auto;
+    margin-top: 25rem;
+}
+
+.footer {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 11.8rem;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 10rem;
+    align-self: center;
+    color: var(--color-white);
+}
+
+.lower>a {
+    color: var(--color-white);
+    text-decoration: none;
+}

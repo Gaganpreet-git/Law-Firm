@@ -1,5 +1,6 @@
 import "./App.css";
 import FeatureCard from "./components/FeatureCard/FeatureCard";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Intro from "./components/Intro/Intro";
@@ -58,7 +59,7 @@ function App() {
           return <img src={item} alt={item} />;
         })}
       </Section> */}
-      <Social />
+      <Footer />
     </div>
   );
 }
