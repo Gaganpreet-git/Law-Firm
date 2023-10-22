@@ -14,8 +14,14 @@ import cesforilaImage from "./assets/sanfole.png";
 import colleenImage from "./assets/colleen.png";
 import haldoneImage from "./assets/haldone.png";
 import nikJeoImage from "./assets/nik-jeo.png";
+import GalleryItem from "./components/GalleryItem/GalleryItem";
 
-// import businessLawImage from "./assets/business-law.png";
+import businessLawImage from "./assets/business-law.png";
+import partnershipLawImage from "./assets/partnership-law.png";
+import realEstateLawImage from "./assets/real-estate-law.png";
+import businessLaw2Image from "./assets/business-law-2.png";
+import landlordDisputesImage from "./assets/landlord-disputes.png";
+import elderAbuseImage from "./assets/elder-abuse.png";
 
 function App() {
   const featureCardsData = [
@@ -76,7 +82,14 @@ function App() {
       featured: false,
     },
   ];
-  // const galleryData = [businessLawImage];
+  const galleryData = [
+    { image: businessLawImage, text: "business law" },
+    { image: partnershipLawImage, text: "partnership law" },
+    { image: realEstateLawImage, text: "partnership law" },
+    { image: businessLaw2Image, text: "business law" },
+    { image: landlordDisputesImage, text: "landlord disputes" },
+    { image: elderAbuseImage, text: "elder abuse" },
+  ];
 
   return (
     <div className="App">
@@ -97,13 +110,12 @@ function App() {
         })}
       </Section>
 
-      {/* <Section heading={"Area of Practices"}>
+      <Section heading={"Area of Practices"}>
         <img src="logo-512.png" alt="" />1
         {galleryData.map((item) => {
-          return <img src={item} alt={item} />;
+          return <GalleryItem image={item.image} text={item.text} />;
         })}
-      </Section> */}
-
+      </Section>
       <Section heading={"Our Team"}>
         {teamData.map((person) => {
           return (
