@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./FeatureCard.module.css";
 import Card from "../Card/Card";
 import Button from "../Button/Button";
-import { ReactComponent as CardImage } from "../assets/gift-icon.svg";
+import { ReactComponent as CardImage } from "../../assets/gift-icon.svg";
 
 const FeatureCard = ({ heading, description, featured }) => {
   return (
