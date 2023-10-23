@@ -1,10 +1,11 @@
 .App {
-  max-width: 144rem;
+  /* max-width: 144rem; */
   margin: 0 auto;
-  margin-top: 5.3rem;
+  /* margin-top: 5.3rem; */
 }
 
-/* .hero-wrapper {
+.hero-wrapper {
   width: 100vw;
   background-color: black;
-} */
+  padding-top: 5.3rem;
+}
