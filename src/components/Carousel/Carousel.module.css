@@ -1,0 +1,43 @@
+.carousel {
+    width: 113.7rem;
+    margin: 0 auto;
+    margin-top: 18.5rem;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    width: 37.4rem;
+    font-size: 5.4rem;
+    font-weight: 600;
+    line-height: 7.7rem;
+
+    color: var(--color-white);
+}
+
+.navigation {
+    display: flex;
+    gap: 1.8rem;
+    align-self: flex-end;
+}
+
+.btn {
+    width: 9rem;
+    height: 9rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    margin-top: 10.4rem;
+    justify-content: space-between;
+}
+
+.btnDisabled {}

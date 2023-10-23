@@ -16,6 +16,11 @@ import haldoneImage from "./assets/haldone.png";
 import nikJeoImage from "./assets/nik-jeo.png";
 import Gallery from "./components/Gallery/Gallery";
 import TestimonialCard from "./components/TestimonialCard/TestimonialCard";
+import Carousel from "./components/Carousel/Carousel";
+
+import janeCooperImage from "./assets/testimonials/jane-cooper.png";
+import devonLaneImage from "./assets/testimonials/devon-lane.png";
+import robertFoxImage from "./assets/testimonials/robert-fox.png";
 
 function App() {
   const featureCardsData = [
@@ -77,6 +82,41 @@ function App() {
     },
   ];
 
+  const testimonialData = [
+    {
+      image: janeCooperImage,
+      name: "Jane Cooper",
+      role: "Ceo of Hunt",
+      description:
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
+    },
+    {
+      image: devonLaneImage,
+      name: "Devon Lane",
+      role: "Ceo of Hunt",
+      description:
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
+    },
+    {
+      image: robertFoxImage,
+      name: "Robert Fox",
+      role: "Ceo of Hunt",
+      description:
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
+    },
+  ];
+
+  const testimonialsCards = testimonialData.map((testimonial) => {
+    return (
+      <TestimonialCard
+        image={testimonial.image}
+        name={testimonial.name}
+        role={testimonial.role}
+        description={testimonial.description}
+      />
+    );
+  });
+
   return (
     <div className="App">
       <div className="hero-wrapper">
@@ -111,13 +151,10 @@ function App() {
           );
         })}
       </Section>
-      <TestimonialCard
-        image={sanfoleImage}
-        name={"Jane Cooper"}
-        role={"Ceo of Hunt"}
-        description={
-          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
-        }
+
+      <Carousel
+        heading={"What says our happy Clients"}
+        data={testimonialsCards}
       />
       <Newsletter />
       <Footer />
