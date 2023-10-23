@@ -21,6 +21,7 @@ import Carousel from "./components/Carousel/Carousel";
 import janeCooperImage from "./assets/testimonials/jane-cooper.png";
 import devonLaneImage from "./assets/testimonials/devon-lane.png";
 import robertFoxImage from "./assets/testimonials/robert-fox.png";
+import Accordian from "./components/Accordian/Accordian";
 
 function App() {
   const featureCardsData = [
@@ -155,6 +156,12 @@ function App() {
       <Carousel
         heading={"What says our happy Clients"}
         data={testimonialsCards}
+      />
+      <Accordian
+        heading={"Do I need a personal injury report?"}
+        description={
+          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer."
+        }
       />
       <Newsletter />
       <Footer />
