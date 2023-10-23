@@ -1,0 +1,33 @@
+.wrapper {
+    padding: 24px 0;
+}
+
+.heading {
+    margin-top: 2rem;
+    font-size: 24px;
+    font-weight: 600;
+
+
+}
+
+.role {
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+
+.description {
+    margin-top: 2.2rem;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+
+    opacity: 30%;
+
+    line-height: 23px;
+    letter-spacing: 0em;
+
+
+}

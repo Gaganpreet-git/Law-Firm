@@ -15,6 +15,7 @@ import colleenImage from "./assets/colleen.png";
 import haldoneImage from "./assets/haldone.png";
 import nikJeoImage from "./assets/nik-jeo.png";
 import Gallery from "./components/Gallery/Gallery";
+import TestimonialCard from "./components/TestimonialCard/TestimonialCard";
 
 function App() {
   const featureCardsData = [
@@ -110,6 +111,14 @@ function App() {
           );
         })}
       </Section>
+      <TestimonialCard
+        image={sanfoleImage}
+        name={"Jane Cooper"}
+        role={"Ceo of Hunt"}
+        description={
+          "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+        }
+      />
       <Newsletter />
       <Footer />
     </div>
