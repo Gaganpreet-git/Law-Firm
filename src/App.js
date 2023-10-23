@@ -91,6 +91,7 @@ function App() {
       role: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
+      featured: false,
     },
     {
       image: devonLaneImage,
@@ -98,6 +99,7 @@ function App() {
       role: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
+      featured: true,
     },
     {
       image: robertFoxImage,
@@ -105,6 +107,15 @@ function App() {
       role: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
+      featured: false,
+    },
+    {
+      image: janeCooperImage,
+      name: "Jane Cooper",
+      role: "Ceo of Hunt",
+      description:
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
+      featured: false,
     },
   ];
 
@@ -141,6 +152,11 @@ function App() {
       <Section heading={"Area of Practices"}>
         <Gallery />
       </Section>
+
+      <Carousel
+        heading={"What says our happy Clients"}
+        data={testimonialsCards}
+      />
       <Section heading={"Our Team"}>
         {teamData.map((person) => {
           return (
@@ -153,11 +169,6 @@ function App() {
           );
         })}
       </Section>
-
-      <Carousel
-        heading={"What says our happy Clients"}
-        data={testimonialsCards}
-      />
       <Faq />
       <Newsletter />
       <Footer />
