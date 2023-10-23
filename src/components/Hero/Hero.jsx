@@ -17,12 +17,15 @@ const Hero = () => {
           curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,
           hac massa gravida arcu interdum proin curae.
         </p>
+        <div className={styles.email}>
+          <input
+            type="email"
+            // className={styles.email}
+            placeholder="Enter your email address"
+          />
+          <div className={styles.btn}>Let`s Talk</div>
+        </div>
       </div>
-      {/* <input
-        type="email"
-        className={styles.email}
-        placeholder="Enter your email address"
-      /> */}
       <HeroImage />
     </div>
   );
